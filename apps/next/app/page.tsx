@@ -44,7 +44,7 @@ export default function ChatPage() {
 
   return (
     <Layout style={{ height: '100vh' }}>
-      <Header style={{ background: '#1677ff', color: 'white' }}>微信聊天</Header>
+      <Header style={{ background: '#1677ff', color: 'white' }}>chat</Header>
 
       <Content
         ref={scrollRef}

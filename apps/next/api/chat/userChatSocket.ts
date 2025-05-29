@@ -28,7 +28,7 @@ export function useChatSocket(userId: string,) {
     }
   }, [])
   const addHistoryMessage = (msgs: ChatMessage[]) => {
-    setMessages((prev) => [...prev, ...msgs])
+    setMessages(msgs)
   }
 
   const sendNewMessage = (text: string) => {
